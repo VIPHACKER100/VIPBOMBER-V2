@@ -107,7 +107,7 @@ do
     banner
     echo -e "\e[4;31m Please Read Instruction Carefully !!! \e[0m"
     echo " "
-    echo "Press 1 To  Start SMS  VIPBomber "
+    echo "Press 1 To  Start SMS  Bomber "
     echo "Press 2 To  Start CALL Bomber "
     echo "Press 3 To  Start MAIL Bomber (Not Yet Available)"
     echo "Press 4 To  Update (Works On Linux And Linux Emulators) "
