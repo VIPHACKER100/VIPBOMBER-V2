@@ -84,7 +84,7 @@ To use the bomber type the following commands in Termux:
 pkg install git -y 
 pkg install python -y 
 https://github.com/VIPHACKER100/VIPBOMBER-V2.git
-cd TBomb
+cd VIPBOMBER-V2
 ./TBomb.sh
 ```
 
@@ -98,7 +98,7 @@ apk add py3-pip
 apk add ruby
 gem install toilet
 https://github.com/VIPHACKER100/VIPBOMBER-V2.git
-cd TBomb
+cd VIPBOMBER-V2
 pip3 install -r requirements.txt
 chmod +x TBomb.sh
 ./TBomb.sh
@@ -110,7 +110,7 @@ To use the application, type in the following commands in GNU/Linux terminal.
 ```shell script
 sudo apt install git
 https://github.com/VIPHACKER100/VIPBOMBER-V2.git
-cd TBomb
+cd VIPBOMBER-V2
 bash TBomb.sh
 ```
 
@@ -132,7 +132,7 @@ brew install python3
 sudo easy_install pip
 sudo pip install --upgrade pip
 https://github.com/VIPHACKER100/VIPBOMBER-V2.git
-cd TBomb
+cd VIPBOMBER-V2
 bash TBomb.sh
 ```
 
