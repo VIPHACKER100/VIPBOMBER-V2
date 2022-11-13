@@ -27,7 +27,7 @@ banner() {
     clear
     echo -e "\e[1;31m"
     if ! [ -x "$(command -v figlet)" ]; then
-        echo 'Introducing TBomb'
+        echo 'Introducing TBomb V2'
     else
         figlet TBomb
     fi
