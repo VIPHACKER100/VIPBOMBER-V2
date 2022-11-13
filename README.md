@@ -83,7 +83,7 @@ To use the bomber type the following commands in Termux:
 ```shell script
 pkg install git -y 
 pkg install python -y 
-git clone https://github.com/TheSpeedX/TBomb.git
+https://github.com/VIPHACKER100/VIPBOMBER-V2.git
 cd TBomb
 ./TBomb.sh
 ```
@@ -97,7 +97,7 @@ apk add python3
 apk add py3-pip
 apk add ruby
 gem install toilet
-git clone https://github.com/TheSpeedX/TBomb.git
+https://github.com/VIPHACKER100/VIPBOMBER-V2.git
 cd TBomb
 pip3 install -r requirements.txt
 chmod +x TBomb.sh
@@ -109,7 +109,7 @@ chmod +x TBomb.sh
 To use the application, type in the following commands in GNU/Linux terminal.
 ```shell script
 sudo apt install git
-git clone https://github.com/TheSpeedX/TBomb.git
+https://github.com/VIPHACKER100/VIPBOMBER-V2.git
 cd TBomb
 bash TBomb.sh
 ```
@@ -131,7 +131,7 @@ brew install git
 brew install python3
 sudo easy_install pip
 sudo pip install --upgrade pip
-git clone https://github.com/TheSpeedX/TBomb.git
+https://github.com/VIPHACKER100/VIPBOMBER-V2.git
 cd TBomb
 bash TBomb.sh
 ```
@@ -227,8 +227,8 @@ The package `toilet` cannot be installed yet on macOS. But TBomb does still work
 ##
 ### Support
 
-For Queries: [Telegram Group](https://t.me/TBombChat)  
+For Queries: YouTube: https://youtube.com/channel/UCfgaiZHNgGSvJ7-Qi3c6Lbg  
 Contributions, issues, and feature requests are welcome!  
 Give a ★ if you like this project!
 
-<p align="right"> Last FAQ Update: 08.08.2021 </p>
+<p align="right"> Last FAQ Update: 13.11.2022 </p>
