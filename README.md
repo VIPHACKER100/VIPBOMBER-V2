@@ -2,7 +2,7 @@
   <br>
   <a href="https://github.com/TheSpeedX/TBomb"><img src="https://i.ibb.co/F4HBKqm/TBomb.png" alt="TBomb"></a>
   <br>
-  TBomb v2.1b
+  VIPBOMBER-V2
   <br>
 </h1>
 
