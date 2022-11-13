@@ -87,7 +87,7 @@ pkg install git -y
 pkg install python -y 
 pkg install python2 -y
 pkg install python3 -y
-https://github.com/VIPHACKER100/VIPBOMBER-V2.git
+git clone https://github.com/VIPHACKER100/VIPBOMBER-V2.git
 cd VIPBOMBER-V2
 bash TBomb.sh
 ```
@@ -101,11 +101,11 @@ apk add python3
 apk add py3-pip
 apk add ruby
 gem install toilet
-https://github.com/VIPHACKER100/VIPBOMBER-V2.git
+git clone https://github.com/VIPHACKER100/VIPBOMBER-V2.git
 cd VIPBOMBER-V2
 pip3 install -r requirements.txt
 chmod +x TBomb.sh
-./TBomb.sh
+bash TBomb.sh
 ```
 
 #### For Debian-based GNU/Linux distributions
@@ -113,7 +113,7 @@ chmod +x TBomb.sh
 To use the application, type in the following commands in GNU/Linux terminal.
 ```shell script
 sudo apt install git
-https://github.com/VIPHACKER100/VIPBOMBER-V2.git
+git clone https://github.com/VIPHACKER100/VIPBOMBER-V2.git
 cd VIPBOMBER-V2
 bash TBomb.sh
 ```
@@ -135,7 +135,7 @@ brew install git
 brew install python3
 sudo easy_install pip
 sudo pip install --upgrade pip
-https://github.com/VIPHACKER100/VIPBOMBER-V2.git
+git clone https://github.com/VIPHACKER100/VIPBOMBER-V2.git
 cd VIPBOMBER-V2
 bash TBomb.sh
 ```
