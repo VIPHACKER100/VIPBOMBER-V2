@@ -236,3 +236,9 @@ Contributions, issues, and feature requests are welcome!
 Give a ★ if you like this project!
 
 <p align="right"> Last FAQ Update: 13.11.2022 </p>
+
+
+warning
+
+This tool is only for educational purpose. If you use this tool for other purposes except education we will not be responsible in such cases.
+
