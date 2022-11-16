@@ -109,7 +109,7 @@ do
     echo " "
     echo "Press 1 To  Start SMS  Bomber "
     echo "Press 2 To  Start CALL Bomber "
-    echo "Press 3 To  Start VIPBOMBER-V2 (Available)"
+    echo "Press 3 To  Start VIPBOMBER-V2 ( not Available)"
     echo "Press 4 To  Update (Works On Linux And Linux Emulators) "
     echo "Press 5 To  Exit "
     read ch
@@ -121,7 +121,7 @@ do
         $PYTHON bomber.py --call
         exit
     elif [ $ch -eq 3 ];then
-        $pip3 install tbomb && tbomb
+        $PYTHON bomber.py --mail 
         exit
     elif [ $ch -eq 4 ];then
         echo -e "\e[1;34m Downloading Latest Files..."
