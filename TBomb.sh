@@ -29,7 +29,7 @@ banner() {
     if ! [ -x "$(command -v figlet)" ]; then
         echo 'Introducing TBomb V2'
     else
-        figlet TBomb
+        figlet TBomb V2
     fi
     if ! [ -x "$(command -v toilet)" ]; then
         echo -e "\e[4;34m This Bomber Was Created By \e[1;32mVIPHACKER100 \e[0m"
@@ -38,7 +38,7 @@ banner() {
         toilet -f mono12 -F border VIPHACKER100 
     fi
     echo -e "\e[1;34m For Any Queries Join Me!!!\e[0m"
-    echo -e "\e[1;32m           Instagram: VIPHACKER100 \e[0m"
+    echo -e "\e[1;32m           Instagram: VIPHACKER_100 \e[0m"
     echo -e "\e[4;32m   YouTube: https://youtube.com/channel/UCfgaiZHNgGSvJ7-Qi3c6Lbg \e[0m"
     echo " "
     echo "NOTE: Kindly move to the PIP version Of TBomb for more stability."
