@@ -27,12 +27,12 @@ banner() {
     clear
     echo -e "\e[1;31m"
     if ! [ -x "$(command -v figlet)" ]; then
-        echo 'Introducing TBomb V2'
+        echo 'Introducing VIPBOMBER-V2'
     else
-        figlet TBomb V2
+        figlet VIPBOMBER-V2 
     fi
     if ! [ -x "$(command -v toilet)" ]; then
-        echo -e "\e[4;34m This Bomber Was Created By \e[1;32mVIPHACKER100 \e[0m"
+        echo -e "\e[4;34m This VIPBOMBER-V2 Was Created By \e[1;32mVIPHACKER100 \e[0m"
     else
         echo -e "\e[1;34mCreated By \e[1;34m"
         toilet -f mono12 -F border VIPHACKER100 
@@ -41,7 +41,7 @@ banner() {
     echo -e "\e[1;32m           Instagram: VIPHACKER_100 \e[0m"
     echo -e "\e[4;32m   YouTube: https://youtube.com/channel/UCfgaiZHNgGSvJ7-Qi3c6Lbg \e[0m"
     echo " "
-    echo "NOTE: Kindly move to the PIP version Of TBomb for more stability."
+    echo "NOTE: Kindly move to the PIP version Of VIPBOMBER for more stability."
     echo " "
 }
 
@@ -98,7 +98,7 @@ else
     echo .
     echo .
     install_deps
-    echo This Script Was Made By SpeedX > .update
+    echo This Script Was Made By VIPHACKER.100 > .update
     echo 'Requirements Installed....'
     pause
 fi
@@ -109,9 +109,10 @@ do
     echo " "
     echo "Press 1 To  Start SMS  Bomber "
     echo "Press 2 To  Start CALL Bomber "
-    echo "Press 3 To  Start VIPBOMBER-V2 ( not Available)"
-    echo "Press 4 To  Update (Works On Linux And Linux Emulators) "
-    echo "Press 5 To  Exit "
+    echo "Press 3 To  Start VIPBOMBER-V2 (install kar ka press 3)"
+    echo "Press 4 To  Start VIPBOMBER-V2 (Available)"
+    echo "Press 5 To  Update (Works On Linux And Linux Emulators) "
+    echo "Press 6 To  Exit "
     read ch
     clear
     if [ $ch -eq 1 ];then
@@ -121,16 +122,19 @@ do
         $PYTHON bomber.py --call
         exit
     elif [ $ch -eq 3 ];then
-        $PYTHON bomber.py --mail 
+        $PYTHON pip3 install tbomb 
         exit
     elif [ $ch -eq 4 ];then
+        $PYTHON tbomb
+        exit
+    elif [ $ch -eq 5 ];then
         echo -e "\e[1;34m Downloading Latest Files..."
         rm -f .update
         $PYTHON bomber.py --update
         echo -e "\e[1;34m RUN TBomb Again..."
         pause
         exit
-    elif [ $ch -eq 5 ];then
+    elif [ $ch -eq 6 ];then
         banner
         exit
     else
