@@ -67,6 +67,8 @@ init_environ(){
     else
         PYTHON="python3"
         SUDO="sudo"
+    else
+        pip3="pip3 install tbomb"
     fi
     PIP="$PYTHON -m pip"
 }
@@ -122,7 +124,7 @@ do
         $PYTHON bomber.py --call
         exit
     elif [ $ch -eq 3 ];then
-        $pip3 install tbomb 
+        $pip3
         exit
     elif [ $ch -eq 4 ];then
         $tbomb
