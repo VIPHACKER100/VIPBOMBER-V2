@@ -67,7 +67,7 @@ init_environ(){
     else
         PYTHON="python3"
         SUDO="sudo"
-    else
+    fi
         pip3="pip3 install tbomb"
     fi
     PIP="$PYTHON -m pip"
