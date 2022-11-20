@@ -126,7 +126,7 @@ do
         $pip3
         exit
     elif [ $ch -eq 4 ];then
-        $tbomb
+        tbomb
         exit
     elif [ $ch -eq 5 ];then
         echo -e "\e[1;34m Downloading Latest Files..."
