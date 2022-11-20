@@ -122,10 +122,10 @@ do
         $PYTHON bomber.py --call
         exit
     elif [ $ch -eq 3 ];then
-        $PYTHON pip3 install tbomb 
+        $pip3 install tbomb 
         exit
     elif [ $ch -eq 4 ];then
-        $PYTHON tbomb
+        $tbomb
         exit
     elif [ $ch -eq 5 ];then
         echo -e "\e[1;34m Downloading Latest Files..."
