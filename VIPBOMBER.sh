@@ -35,7 +35,7 @@ banner() {
         echo -e "\e[4;34m This VIPBOMBER-V2 Was Created By \e[1;32mVIPHACKER100 \e[0m"
     else
         echo -e "\e[1;34mCreated By \e[1;34m"
-        toilet -f mono12 -F border VIPHACKER100 
+        toilet -f mono12 -F border VIPHACKER.100 
     fi
     echo -e "\e[1;34m For Any Queries Join Me!!!\e[0m"
     echo -e "\e[1;32m           Instagram: VIPHACKER_100 \e[0m"
