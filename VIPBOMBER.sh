@@ -123,7 +123,7 @@ do
         $PYTHON bomber.py --call
         exit
     elif [ $ch -eq 3 ];then
-        pip install tbomb
+        pip
         exit
     elif [ $ch -eq 4 ];then
         tbomb
