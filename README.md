@@ -89,6 +89,7 @@ pkg install python2 -y
 pkg install python3 -y
 git clone https://github.com/VIPHACKER100/VIPBOMBER-V2.git
 cd VIPBOMBER-V2
+pip3 install tbomb
 bash TBomb.sh
 ```
 
