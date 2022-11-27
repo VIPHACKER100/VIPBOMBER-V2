@@ -90,7 +90,7 @@ pkg install python3 -y
 git clone https://github.com/VIPHACKER100/VIPBOMBER-V2.git
 cd VIPBOMBER-V2
 pip3 install tbomb
-bash TBomb.sh
+bash VIPBOMBER.sh
 ```
 
 #### For iSH
@@ -105,8 +105,8 @@ gem install toilet
 git clone https://github.com/VIPHACKER100/VIPBOMBER-V2.git
 cd VIPBOMBER-V2
 pip3 install -r requirements.txt
-chmod +x TBomb.sh
-bash TBomb.sh
+chmod +x VIPBOMBER.sh
+bash VIPBOMBER.sh
 ```
 
 #### For Debian-based GNU/Linux distributions
@@ -116,7 +116,7 @@ To use the application, type in the following commands in GNU/Linux terminal.
 sudo apt install git
 git clone https://github.com/VIPHACKER100/VIPBOMBER-V2.git
 cd VIPBOMBER-V2
-bash TBomb.sh
+bash VIPBOMBER.sh
 ```
 
 #### For MacOS
@@ -138,7 +138,7 @@ sudo easy_install pip
 sudo pip install --upgrade pip
 git clone https://github.com/VIPHACKER100/VIPBOMBER-V2.git
 cd VIPBOMBER-V2
-bash TBomb.sh
+bash VIPBOMBER.sh
 ```
 
 
