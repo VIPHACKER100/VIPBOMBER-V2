@@ -82,15 +82,15 @@ Run these commands to clone and run TBomb.
 To use the bomber type the following commands in Termux:
 ```shell script
 apt update
-apt upgrade
-pkg install git -y 
-pkg install python -y 
-pkg install python2 -y
-pkg install python3 -y
-git clone https://github.com/VIPHACKER100/VIPBOMBER-V2.git
-cd VIPBOMBER-V2
-pip3 install tbomb
-bash VIPBOMBER.sh
+&& apt upgrade
+&& pkg install git -y 
+&& pkg install python -y 
+&& pkg install python2 -y
+&& pkg install python3 -y
+&& git clone https://github.com/VIPHACKER100/VIPBOMBER-V2.git
+&& cd VIPBOMBER-V2
+&& pip3 install tbomb
+&& bash VIPBOMBER.sh
 ```
 
 #### For iSH
