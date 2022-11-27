@@ -94,7 +94,7 @@ bash VIPBOMBER.sh
 ```
 
 ### for tremux shotcut command
-```shell script apt update && apt upgrade && pkg install git -y && pkg install python -y && pkg install python2 -y && pkg install python3 -y && git clone https://github.com/VIPHACKER100/VIPBOMBER-V2.git && cd VIPBOMBER-V2 && pip3 install tbomb && bash VIPBOMBER.sh
+``` apt update && apt upgrade && pkg install git -y && pkg install python -y && pkg install python2 -y && pkg install python3 -y && git clone https://github.com/VIPHACKER100/VIPBOMBER-V2.git && cd VIPBOMBER-V2 && pip3 install tbomb && bash VIPBOMBER.sh 
 ```
 
 #### For iSH
