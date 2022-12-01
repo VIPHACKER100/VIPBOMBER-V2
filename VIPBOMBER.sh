@@ -110,10 +110,9 @@ do
     echo " "
     echo "Press 1 To  Start SMS  Bomber "
     echo "Press 2 To  Start CALL Bomber "
-    echo "Press 3 To  Start VIPBOMBER-V2 (install kar ka press 3)"
-    echo "Press 4 To  Start VIPBOMBER-V2 (Available)"
-    echo "Press 5 To  Update (Works On Linux And Linux Emulators) "
-    echo "Press 6 To  Exit "
+    echo "Press 3 To  Start VIPBOMBER-V2 (Available)"
+    echo "Press 4 To  Update (Works On Linux And Linux Emulators) "
+    echo "Press 5 To  Exit "
     read ch
     clear
     if [ $ch -eq 1 ];then
@@ -123,19 +122,16 @@ do
         $PYTHON bomber.py --call
         exit
     elif [ $ch -eq 3 ];then
-        pip
-        exit
-    elif [ $ch -eq 4 ];then
         tbomb
         exit
-    elif [ $ch -eq 5 ];then
+    elif [ $ch -eq 4 ];then
         echo -e "\e[1;34m Downloading Latest Files..."
         rm -f .update
         $PYTHON bomber.py --update
         echo -e "\e[1;34m RUN TBomb Again..."
         pause
         exit
-    elif [ $ch -eq 6 ];then
+    elif [ $ch -eq 5 ];then
         banner
         exit
     else
