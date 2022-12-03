@@ -153,7 +153,7 @@ The package `toilet` cannot be installed yet on macOS. But TBomb does still work
 
 ### Demonstrative Video:
 
-- Watch Indian Bombing Method [here](https://youtu.be/9KWkwsr_QGw)  
+- Watch Indian Bombing Method [here](https://youtu.be/YsuZEA2qCh4).  
 - Watch International Bombing Method [here](https://youtu.be/JqsHkyIcnPM).  
 
 ## Contributors
@@ -237,7 +237,7 @@ The package `toilet` cannot be installed yet on macOS. But TBomb does still work
 ##
 ### Support
 
-For Queries: YouTube: https://youtube.com/channel/UCfgaiZHNgGSvJ7-Qi3c6Lbg  
+For Queries: YouTube: https://youtube.com/@viphacker100  
 Contributions, issues, and feature requests are welcome!  
 Give a ★ if you like this project!
 
