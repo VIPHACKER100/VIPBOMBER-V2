@@ -7,7 +7,7 @@
 </h1>
 
 
-<p align="center">A free and open-source SMS/Call bombing application Wab site https://vipgameraryan.wixsite.com/viphacker100 </p>
+<p align="center">A free and open-source SMS/Call bombing application </p>
 
 ## NOTES:
 
