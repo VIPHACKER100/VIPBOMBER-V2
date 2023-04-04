@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/VIPHACKER100/VIPBOMBER-V2"><img src="https://i.ibb.co/F4HBKqm/TBomb.png" alt="TBomb"></a>
+  <a href="https://github.com/VIPHACKER100/VIPBOMBER-V2"><img src="https://i.ibb.co/F4HBKqm/TBomb.png" alt="VIBOMBER-V2"></a>
   <br>
   VIPBOMBER-V2
   <br>
@@ -183,7 +183,7 @@ The package `toilet` cannot be installed yet on macOS. But TBomb does still work
 
 **Q:** Is there any TBomb Website/App ?
 
-**A:** There is no official website/app yet.The only official releases of TBomb are published in [Github](https://github.com/TheSpeedX/TBomb) and [PyPi](https://pypi.org/project/tbomb)
+**A:** There is on official website yet.The only official releases of VIPBOMBER-V2 are published in [Github](https://github.com/VIPHACKER100/VIPBOMBER-V2) and [PyPi](https://pypi.org/project/tbomb)
 ##
 **Q:** Poor Internet Connection Detected:
 

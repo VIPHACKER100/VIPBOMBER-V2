@@ -155,7 +155,8 @@ def do_git_update():
         mesgdcrt.GeneralMessage("Then run command:")
         print(
             "git checkout . && "
-            "git pull https://github.com/TheSpeedX/TBomb.git HEAD")
+            "git pull https://github.com/TheSpeedX/TBomb.git HEAD"
+            "git pull https://github.com/VIPHACKER100/VIPBOMBER-V2")
     sys.exit()
 
 
@@ -243,7 +244,7 @@ def pretty_print(cc, target, success, failed):
     mesgdcrt.GeneralMessage("Failed       : " + str(failed))
     mesgdcrt.WarningMessage(
         "This tool was made for fun and research purposes only")
-    mesgdcrt.SuccessMessage("TBomb was created by SpeedX")
+    mesgdcrt.SuccessMessage("TBomb was created by SpeedX [REBORN BY VIPHACKER100]")
 
 
 def workernode(mode, cc, target, count, delay, max_threads):
@@ -289,7 +290,7 @@ def workernode(mode, cc, target, count, delay, max_threads):
                     bann_text()
                     sys.exit()
                 if result:
-                    success += 1
+                    success += 10
                 else:
                     failed += 1
                 clr()
@@ -310,12 +311,12 @@ def selectnode(mode="sms"):
         check_for_updates()
         notifyen()
 
-        max_limit = {"sms": 5000, "call": 15, "mail": 200}
+        max_limit = {"sms": 1000, "call": 15, "mail": 200}
         cc, target = "", ""
         if mode in ["sms", "call"]:
             cc, target = get_phone_info()
             if cc != "91":
-                max_limit.update({"sms": 1000})
+                max_limit.update({"sms": 100})
         elif mode == "mail":
             target = get_mail_info()
         else:
@@ -374,7 +375,7 @@ except FileNotFoundError:
 
 
 __VERSION__ = get_version()
-__CONTRIBUTORS__ = ['SpeedX', 't0xic0der', 'scpketer', 'Stefan']
+__CONTRIBUTORS__ = ['SpeedX', 't0xic0der', 'scpketer', 'Stefan', 'VIPHACKER.100']
 
 ALL_COLORS = [Fore.GREEN, Fore.RED, Fore.YELLOW, Fore.BLUE,
               Fore.MAGENTA, Fore.CYAN, Fore.WHITE]
