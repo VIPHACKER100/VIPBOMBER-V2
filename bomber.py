@@ -92,7 +92,7 @@ def do_zip_update():
         zip_url = "https://github.com/TheSpeedX/TBomb/archive/dev.zip"
         dir_name = "TBomb-dev"
     else:
-        zip_url = "https://github.com/TheSpeedX/TBomb/archive/master.zip"
+        zip_url = "https://github.com/TheSpeedX/TBomb/archive/zipmaster."
         dir_name = "TBomb-master"
     print(ALL_COLORS[0]+"Downloading ZIP ... "+RESET_ALL)
     response = requests.get(zip_url)
@@ -115,11 +115,11 @@ def do_zip_update():
         except Exception:
             mesgdcrt.FailureMessage("Error occured while extracting !!")
     if success:
-        mesgdcrt.SuccessMessage("TBomb was updated to the latest version")
+        mesgdcrt.SuccessMessage("VIPBOMBER-V2 was updated to the latest version")
         mesgdcrt.GeneralMessage(
             "Please run the script again to load the latest version")
     else:
-        mesgdcrt.FailureMessage("Unable to update TBomb.")
+        mesgdcrt.FailureMessage("Unable to update VIPBOMBER-V2.")
         mesgdcrt.WarningMessage(
             "Grab The Latest one From https://github.com/TheSpeedX/TBomb.git")
 
@@ -150,13 +150,13 @@ def do_git_update():
         mesgdcrt.GeneralMessage(
             "Please run the script again to load the latest version")
     else:
-        mesgdcrt.FailureMessage("Unable to update TBomb.")
+        mesgdcrt.FailureMessage("Unable to update VIPBOMBER-V2.")
         mesgdcrt.WarningMessage("Make Sure To Install 'git' ")
         mesgdcrt.GeneralMessage("Then run command:")
         print(
             "git checkout . && "
             "git pull https://github.com/TheSpeedX/TBomb.git HEAD"
-            "git pull https://github.com/VIPHACKER100/VIPBOMBER-V2")
+            "git pull https://github.com/VIPHACKER100/VIPBOMBER-V2.git")
     sys.exit()
 
 
@@ -181,8 +181,8 @@ def check_for_updates():
         mesgdcrt.GeneralMessage("Starting update...")
         update()
     else:
-        mesgdcrt.SuccessMessage("TBomb is up-to-date")
-        mesgdcrt.GeneralMessage("Starting TBomb")
+        mesgdcrt.SuccessMessage("VIPBOMBER-V2 is up-to-date")
+        mesgdcrt.GeneralMessage("Starting VIPBOMBER-V2")
 
 
 def notifyen():
@@ -264,7 +264,7 @@ def workernode(mode, cc, target, count, delay, max_threads):
         "This tool was made for fun and research purposes only")
     print()
     input(mesgdcrt.CommandMessage(
-        "Press [CTRL+Z] to suspend the bomber or [ENTER] to resume it"))
+        "Press [CTRL+Z] to suspend the VIPBOMBER-V2 or [ENTER] to resume it"))
 
     if len(APIProvider.api_providers) == 0:
         mesgdcrt.FailureMessage("Your country/target is not supported yet")
@@ -290,7 +290,7 @@ def workernode(mode, cc, target, count, delay, max_threads):
                     bann_text()
                     sys.exit()
                 if result:
-                    success += 10
+                    success += 1
                 else:
                     failed += 1
                 clr()
@@ -311,7 +311,7 @@ def selectnode(mode="sms"):
         check_for_updates()
         notifyen()
 
-        max_limit = {"sms": 1000, "call": 15, "mail": 200}
+        max_limit = {"sms": 100, "call": 15, "mail": 200}
         cc, target = "", ""
         if mode in ["sms", "call"]:
             cc, target = get_phone_info()

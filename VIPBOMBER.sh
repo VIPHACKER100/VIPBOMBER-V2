@@ -27,21 +27,21 @@ banner() {
     clear
     echo -e "\e[1;31m"
     if ! [ -x "$(command -v figlet)" ]; then
-        echo 'Introducing TBomb'
+        echo 'Introducing VIPBOMBER-V2'
     else
-        figlet TBomb
+        figlet \VIPBOMBER-V2
     fi
     if ! [ -x "$(command -v toilet)" ]; then
-        echo -e "\e[4;34m This Bomber Was Created By \e[1;32mSpeedX \e[0m"
+        echo -e "\e[4;34m This Bomber Was Created By \e[1;32mVIPHACKER100 \e[0m"
     else
         echo -e "\e[1;34mCreated By \e[1;34m"
-        toilet -f mono12 -F border SpeedX
+        toilet -f mono12 -F border VIPHACKER100
     fi
     echo -e "\e[1;34m For Any Queries Join Me!!!\e[0m"
     echo -e "\e[1;32m           Telegram: https://t.me/TBombChat \e[0m"
-    echo -e "\e[4;32m   YouTube: https://www.youtube.com/c/SpeedXTech \e[0m"
+    echo -e "\e[4;32m   YouTube: https://www.youtube.com/@VIPHACKER100 \e[0m"
     echo " "
-    echo "NOTE: Kindly move to the PIP version Of TBomb for more stability."
+    echo "NOTE: Kindly move to the PIP version Of VIPBOMBER-V2 for more stability."
     echo " "
 }
 
@@ -98,7 +98,7 @@ else
     echo .
     echo .
     install_deps
-    echo This Script Was Made By SpeedX > .update
+    echo This Script Was Made By VIPBOMBER-V2 > .update
     echo 'Requirements Installed....'
     pause
 fi
