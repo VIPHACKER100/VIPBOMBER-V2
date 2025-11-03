@@ -9,6 +9,12 @@
 
 <p align="center">A free and open-source SMS/Call bombing application </p>
 
+## What's New
+
+- Secure updater: removed use of shell=true in git update and added timeouts for safer execution.
+- Stricter input validation: phone numbers now checked against E.164 format; emails validated with a robust regex.
+- General hardening and minor fixes.
+
 ## NOTES:
 
 
@@ -250,5 +256,11 @@ Give a ★ if you like this project!
 
 ## warning:
 
-This tool is only for educational and research purpose. If you use this tool for other purposes except education we will not be responsible in such cases.
+This tool is only for educational and research purpose with consent in controlled environments. Do not use this project to harass, spam, or abuse anyone. If you use this tool for other purposes except education we will not be responsible in such cases.
+
+## Configuration and Safety
+
+- Do not hardcode API keys or secrets in the codebase. Prefer environment variables and local config files that are not committed.
+- Use sandbox/test credentials where available. Example providers often offer test modes to avoid real traffic.
+- Respect rate limits and applicable laws and policies at all times.
 

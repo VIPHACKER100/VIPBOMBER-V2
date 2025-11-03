@@ -30,6 +30,10 @@ except ImportError:
     sys.exit(1)
 
 
+# Compiled validators
+phone_pattern = re.compile(r'^\+?[1-9]\d{1,14}$')  # E.164 compliant
+email_pattern = re.compile(r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}$')
+
 def readisdc():
     with open("isdcodes.json") as file:
         isdcodes = json.load(file)
@@ -128,19 +132,35 @@ def do_zip_update():
 
 def do_git_update():
     success = False
+    print(ALL_COLORS[0]+"UPDATING "+RESET_ALL, end='')
     try:
-        print(ALL_COLORS[0]+"UPDATING "+RESET_ALL, end='')
-        process = subprocess.Popen("git checkout . && git pull ",
-                                   shell=True,
-                                   stdout=subprocess.PIPE,
-                                   stderr=subprocess.STDOUT)
-        while process:
+        # Run safe, explicit commands with no shell and a timeout
+        checkout = subprocess.run(
+            ["git", "checkout", "."],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+            text=True,
+            timeout=60,
+            cwd=os.getcwd(),
+            check=True,
+        )
+        for _ in range(3):
             print(ALL_COLORS[0]+'.'+RESET_ALL, end='')
-            time.sleep(1)
-            returncode = process.poll()
-            if returncode is not None:
-                break
-        success = not process.returncode
+            time.sleep(0.3)
+        pull = subprocess.run(
+            ["git", "pull", "--ff-only"],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+            text=True,
+            timeout=120,
+            cwd=os.getcwd(),
+            check=True,
+        )
+        success = True
+    except subprocess.TimeoutExpired:
+        success = False
+    except subprocess.CalledProcessError:
+        success = False
     except Exception:
         success = False
     print("\n")
@@ -155,7 +175,7 @@ def do_git_update():
         mesgdcrt.GeneralMessage("Then run command:")
         print(
             "git checkout . && "
-            "git pull https://github.com/TheSpeedX/TBomb.git HEAD"
+            "git pull https://github.com/TheSpeedX/TBomb.git HEAD\n"
             "git pull https://github.com/VIPHACKER100/VIPBOMBER-V2.git")
     sys.exit()
 
@@ -218,14 +238,19 @@ def get_phone_info():
                 "The phone number ({target})".format(target=target) +
                 "that you have entered is invalid")
             continue
+        # Validate full E.164 formatted number
+        e164_number = "+" + cc + target
+        if not phone_pattern.match(e164_number):
+            mesgdcrt.WarningMessage(
+                "The phone number (" + e164_number + ") is not E.164 compliant")
+            continue
         return (cc, target)
 
 
 def get_mail_info():
-    mail_regex = r'^[a-z0-9]+[\._]?[a-z0-9]+[@]\w+[.]\w{2,3}$'
     while True:
         target = input(mesgdcrt.CommandMessage("Enter target mail: "))
-        if not re.search(mail_regex, target, re.IGNORECASE):
+        if not email_pattern.match(target):
             mesgdcrt.WarningMessage(
                 "The mail ({target})".format(target=target) +
                 " that you have entered is invalid")
