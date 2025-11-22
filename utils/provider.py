@@ -35,10 +35,15 @@ class APIProvider:
                     # Get country-specific and multi APIs
                     country_apis = data[self.mode].get(self.cc, [])
                     multi_apis = data[self.mode].get('multi', [])
-                    self.api_providers = country_apis + multi_apis
+                    providers = country_apis + multi_apis
+                    # Set both instance and class-level providers so callers
+                    # referencing APIProvider.api_providers (class attr) see them.
+                    self.api_providers = providers
+                    APIProvider.api_providers = providers
         except Exception as e:
             print(f"Error loading APIs: {e}")
             self.api_providers = []
+            APIProvider.api_providers = []
     
     def hit(self):
         """Execute API call"""
