@@ -1,1 +1,33 @@
-This Script Was Made By "TheSpeedX", "Avinash", "Reiltar", "ItzAnasov", "VIPHACKER.100"
+# VIPBOMBER-V2 Credits & Attribution
+
+## Original Creator & Core Development
+- **TheSpeedX** - Original creator of TBomb, core architecture, and initial development
+- **VIPHACKER100** - Lead maintainer of VIPBOMBER-V2, major upgrades, and feature additions
+
+## Core Contributors
+- **Avinash** - API integration, testing, and documentation
+- **Reiltar** - Security features, code optimization, and bug fixes
+- **ItzAnasov** - Multi-platform support and user interface improvements
+
+## Special Thanks
+- **scpketer** - Security research and vulnerability testing
+- **t0xic0der** - Code review and performance optimization
+- **0n1cOn3** - Infrastructure and deployment support
+- **Bishal** - API development and service integration
+
+## Donors & Supporters
+- **34D30Y** - Major donor and project supporter
+- **SC AMAN** - Contributor and beta tester
+- All our community testers and feedback providers
+
+## Open Source Acknowledgments
+This project uses several open-source technologies:
+- **Python** - Core programming language
+- **Requests** - HTTP library for API calls
+- **Colorama** - Cross-platform colored terminal text
+- **Cryptography** - Security and encryption libraries
+
+## Disclaimer
+This tool is created for educational and authorized testing purposes only. 
+Misuse of this software is strictly prohibited. The developers are not responsible for any illegal activities conducted using this tool.
+Always obtain proper authorization before testing any system or network.

