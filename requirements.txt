@@ -6,44 +6,14 @@ idna>=3.6
 requests>=2.31.0
 urllib3>=2.1.0
 
-# Security & Cryptography
-cryptography>=41.0.7
-pyOpenSSL>=23.2.0
-
 # Enhanced Functionality
 beautifulsoup4>=4.12.2
 lxml>=4.9.3
 fake-useragent>=1.4.0
-soupsieve>=2.5
 
 # Performance & Utilities
 psutil>=5.9.6
 tqdm>=4.66.1
-click>=8.1.7
 
-# Advanced Networking
-aiohttp>=3.9.1
-asyncio-throttle>=1.0.2
-urllib3-secure-extra>=0.1.0
-
-# Data Processing
-python-dateutil>=2.8.2
-pytz>=2023.3.post1
-
-# Configuration & Logging
-pyyaml>=6.0.1
-toml>=0.10.2
-rich>=13.7.0
-
-# Platform Specific (Optional)
-pyfiglet>=1.0.2
-toilet>=0.3  # For Termux/Linux systems
-
-# Development & Testing
-pytest>=7.4.3
-pytest-asyncio>=0.21.1
-pytest-cov>=4.1.0
-
-# Backup Dependencies (Fallback)
-backports.zoneinfo>=0.2.1; python_version < "3.9"
-typing-extensions>=4.8.0; python_version < "3.8"
+# Optional - Remove toilet requirement
+# toilet is a system package, not a Python package
